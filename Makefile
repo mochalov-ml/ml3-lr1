@@ -17,7 +17,9 @@ requirements:
 	$(PYTHON_INTERPRETER) -m pip install -U pip
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 	
-
+.PHONY: inotloveolivki
+inotloveolivki:
+	echo "Меня зовут Антон, и я не люблю оливки. А вы?"
 
 
 ## Delete all compiled Python files
