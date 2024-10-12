@@ -19,7 +19,7 @@ requirements:
 	
 .PHONY: iloveolivki
 iloveolivki:
-	echo "Меня зовут Антон, и я люблю оливки. А вы?" 
+	echo "Меня зовут Антон, и я люблю оливки. А вы?"  
 
 ## Delete all compiled Python files
 .PHONY: clean
